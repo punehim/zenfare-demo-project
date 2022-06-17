@@ -10,4 +10,11 @@
 		<module>aurora-provisional-core</module>
 		<module>aurora-provisional-post-transaction</module>
 	</modules>
+	<repositories>
+            <repository>
+              <id>codeartifact</id>
+              <name>codeartifact</name>
+          <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
+            </repository>
+          </repositories>
 </project>
