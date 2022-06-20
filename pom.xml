@@ -6,6 +6,10 @@
 	<packaging>pom</packaging>
 	<name>Genfare-ER-Reporting</name>
 	<description>Genfare-ER-Reporting</description>
+	<properties>
+        <timestamp>${maven.build.timestamp}</timestamp>
+           <maven.build.timestamp.format>yyyy-MM-dd_HHmm</maven.build.timestamp.format>
+        </properties>
 	<modules>
 		<module>aurora-provisional-core</module>
 		<module>aurora-provisional-post-transaction</module>
