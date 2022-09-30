@@ -14,6 +14,13 @@
 		<module>aurora-provisional-core</module>
 		<module>aurora-provisional-post-transaction</module>
 	</modules>
+	<distributionManagement>
+        <repository>
+               <id>himanshu-maven-central-store</id>
+               <name>himanshu-maven-central-store</name>
+              <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
+        </repository>
+        </distributionManagement>
 	<repositories>
             <repository>
               <id>codeartifact</id>
@@ -21,12 +28,4 @@
           <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
             </repository>
           </repositories>
-	
-	<distributionManagement>
-  <repository>
-    <id>himanshu-maven-central-store</id>
-    <name>himanshu-maven-central-store</name>
-    <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
-  </repository>
-</distributionManagement>
 </project>
