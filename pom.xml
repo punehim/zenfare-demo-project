@@ -14,14 +14,6 @@
 		<module>aurora-provisional-core</module>
 		<module>aurora-provisional-post-transaction</module>
 	</modules>
-	<distributionManagement>
-        <repository>
-	   <uniqueVersion>false</uniqueVersion>
-           <id>himanshu-himanshu-zenfare</id>
-           <name>himanshu-himanshu-zenfare</name>
-           <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/himanshu-zenfare/</url>
-        </repository>
-        </distributionManagement>
 	<repositories>
             <repository>
               <id>codeartifact</id>
