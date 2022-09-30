@@ -16,11 +16,11 @@
 	</modules>
 	<distributionManagement>
         <repository>
-               <id>himanshu-maven-central-store</id>
-               <name>himanshu-maven-central-store</name>
-              <url>https://himanshu-521682743690.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
-        </repository>
-        </distributionManagement>
+            <id>genfare-java-lambda-Genfare-java-lambda</id>
+            <name>genfare-java-lambda-Genfare-java-lambda</name>
+            <url>https://genfare-java-lambda-302794958025.d.codeartifact.us-east-2.amazonaws.com/maven/Genfare-java-lambda/</url>
+       </repository>
+       </distributionManagement>
 	<repositories>
             <repository>
               <id>codeartifact</id>
